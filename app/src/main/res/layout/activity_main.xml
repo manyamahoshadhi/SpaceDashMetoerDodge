@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/darkblue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Space Dash"
+        android:textColor="@color/lightblue"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textSize="44sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="High Score : 0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gameufo"
+        android:layout_width="213dp"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/ufo" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Play"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/green"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp" />
+
+
+    <Button
+        android:id="@+id/mainmenuBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Main menu"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/green"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp"/>
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Exit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/red"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp"/>
+
+</LinearLayout>
